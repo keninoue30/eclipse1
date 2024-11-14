@@ -1,0 +1,20 @@
+INDEX VERSION 1.127+C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\workspace\.metadata\.plugins\org.eclipse.jdt.core
+911442933.index
+3284080552.index
+797888610.index
+2192460226.index
+2981403333.index
+1038286199.index
+2345471754.index
+3497190822.index
+1618023285.index
+3326665648.index
+1885037615.index
+3287924731.index
+3540851583.index
+986787261.index
+3446684165.index
+10720227.index
+203002194.index
+3213321484.index
+1489953898.index
