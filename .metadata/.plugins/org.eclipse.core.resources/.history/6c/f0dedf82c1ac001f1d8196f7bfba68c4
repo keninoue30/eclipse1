@@ -1,0 +1,22 @@
+
+public class ifbunnkisoo {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		int a = 10;
+		
+		if(a<20){
+			System.out.println("A");
+		}
+		
+		int b = 5;
+		if(b<10 && 3<b){
+			System.out.println("B");
+		}
+		
+		
+		
+	}
+
+}
