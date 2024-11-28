@@ -1,0 +1,17 @@
+
+public class kansuu {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		
+		public static int totalPrice (int fruitprice,double tax =1.08,int haiso=350){
+			return(int)(fruitprice*tax)+haiso ;
+			}
+			System.out.println(totalPrice(300)+"<br>");
+			
+
+		
+	}
+
+}

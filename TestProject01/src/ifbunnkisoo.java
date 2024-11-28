@@ -28,6 +28,15 @@ public class ifbunnkisoo {
 		for(int j = 1;j<10; j+=3){
 		System.out.println(j);
 		}
-	}
 
-}
+		int k = 0;
+		while(k<=100){
+			System.out.println(k);
+			System.out.println("-");
+			k++;
+		}
+	}}
+
+
+
+
