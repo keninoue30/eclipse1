@@ -1,0 +1,9 @@
+package jp.co.diworks.action;
+
+public class Main {
+	
+	public static int gokei(){
+		return 1+1;
+	}
+
+}

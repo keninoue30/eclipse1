@@ -712,3 +712,197 @@ java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
 	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 20:57:08.362
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 21:07:01.720
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 21:30:08.026
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2024-12-04 21:30:35.517
+!MESSAGE Full project indexing required:
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\charsets.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\access-bridge-64.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\cldrdata.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\dnsns.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\jaccess.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\jfxrt.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\localedata.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\nashorn.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\sunec.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\sunjce_provider.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\sunmscapi.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\sunpkcs11.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\zipfs.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\jce.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\jfr.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\jsse.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\resources.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:167)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 21:39:36.452
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 21:40:55.029
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 22:17:38.129
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 22:21:24.203
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2024-12-04 22:38:10.922
+!MESSAGE Full project indexing required:
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\charsets.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\access-bridge-64.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\cldrdata.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\dnsns.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\jaccess.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\jfxrt.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\localedata.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\nashorn.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\sunec.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\sunjce_provider.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\sunmscapi.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\sunpkcs11.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\ext\zipfs.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\jce.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\jfr.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\jsse.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\resources.jar
+  [+] C:\Users\rokin\Downloads\pleiades-e4.5-java-jre_20160312\pleiades\java\8\jre\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:167)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 22:38:39.875
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 22:40:25.751
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 22:42:53.450
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 22:44:33.545
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2024-12-04 22:48:18.389
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
